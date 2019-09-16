@@ -1,0 +1,66 @@
+.MA0.white > div,
+.MA0.white > div > div > div,
+.MA0.white a,
+.MA0.white div div::before {
+background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+}
+.MA0,
+.MA0 * {
+  box-sizing: border-box;
+}
+.MA0 {
+  text-align: center;
+}
+.MA0 > div,
+.MA0 > div > div > div {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.MA0 > div > div > div b {
+  display: block;
+  height: 100%;
+  margin-right: 20px;
+}
+.MA0 a {
+  display: block;
+  background-clip: border-box;
+  margin: 2px;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 25px;
+  margin: 15px 0;
+  transform: scale(0.8);
+  transition: 0.3s;
+}
+.MA0 a:hover {
+  transform: scale(1);
+}
+@font-face {
+  font-family: Yessy;
+  src: url(https://cdn.statically.io/gh/EmmesCodes/Tipografias/46ff81bf/Yessy.otf);
+}
+.miMA0 {
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  display: block;
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.miMA0:hover {
+  letter-spacing: 5px;
+}
+.imma{
+	width:82px; 
+	height:86px;
+}
+
+.imma2{
+	width:50px; 
+	height:100px;
+	transform: rotate(-3px)
+}
