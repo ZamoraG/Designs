@@ -15,7 +15,6 @@ background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
 .MA0 > div > div > div {
   display: inline-block;
   margin-left: 25px;
-  margin-top: 25px;
 }
 
 .MA0 > div > div > div b {
@@ -30,16 +29,11 @@ background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
   -webkit-background-clip: text;
   color: transparent;
   font-size: 25px;
-  margin: 15px 0;
   transform: scale(0.8);
   transition: 0.3s;
 }
 .MA0 a:hover {
   transform: scale(1);
-}
-@font-face {
-  font-family: Yessy;
-  src: url(https://cdn.statically.io/gh/EmmesCodes/Tipografias/46ff81bf/Yessy.otf);
 }
 .miMA0 {
   -webkit-background-clip: text; 
@@ -57,10 +51,16 @@ background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
 .imma{
 	width:82px; 
 	height:86px;
+	opacity: 0.5;
 }
 
 .imma2{
 	width:50px; 
 	height:100px;
-	transform: rotate(-3px)
+	opacity: 0.5;
+}
+
+.Nais{
+	opacity: 0.5;
+	transform: scale(1.1);
 }
